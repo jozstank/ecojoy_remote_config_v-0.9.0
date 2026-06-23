@@ -1,8 +1,8 @@
 {
   "server": {
-    "latest_version": "0.9.1",
-    "force_update": true,
-    "grace_days":2,
+    "latest_version": "0.9.0",
+    "force_update": false,
+    "grace_days":0,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Server",
     "update_message": "A newer version of Ecojoy Server is available. Please install the latest build to continue.",
@@ -16,9 +16,9 @@
     "download_url": ""
   },
   "client": {
-    "latest_version": "0.9.1",
-    "force_update": true,
-    "grace_days":2,
+    "latest_version": "0.9.0",
+    "force_update": false,
+    "grace_days":,
     "grace_until": "",
     "update_title": "Update required — Ecojoy Client",
     "update_message": "A newer version of Ecojoy Client is available. Please install the latest build to continue.",
@@ -71,11 +71,11 @@
     },
     {
       "id": "all_devices_reminder",
-      "enabled": false,
+      "enabled": true,
       "target": "both",
       "scope": "all",
       "machine_ids": [],
-      "block_app": false,
+      "block_app": true,
       "title": "License reminder",
       "message": "Please ensure your Machine ID ({machine_id}) is registered with the administrator.",
       "title_mm": "လိုင်စင်သတိပေးချက်",
