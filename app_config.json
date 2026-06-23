@@ -32,7 +32,7 @@
     "download_url": ""
   },
   "announcement": {
-    "enabled": false,
+    "enabled": true,
     "target": "both",
     "title": "Announcement",
     "message": "Welcome to Ecojoy Desktop App.",
@@ -40,7 +40,7 @@
     "message_mm": "Ecojoy Desktop App ကို အသုံးပြုသည့်အတွက် ကျေးဇူးတင်ပါသည်။",
     "title_th": "ประกาศ",
     "message_th": "ยินดีต้อนรับสู่ Ecojoy Desktop App",
-    "show_ads": false,
+    "show_ads": true,
     "ads_link": "",
     "ads_button_label": "Learn more",
     "ads_button_label_mm": "ပိုမိုသိရှိရန်",
